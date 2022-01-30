@@ -1,6 +1,6 @@
 <?php
-class php_cvent_wrapper {
-
+class php_cvent_wrapper 
+{
   private $production_wsdl = 'https://api.cvent.com/soap/V200611.ASMX?WSDL';
   private $eu_wsdl = 'https://api-eur.cvent.com/SOAP/V200611.ASMX?wsdl';
   private $wsdl = '';
